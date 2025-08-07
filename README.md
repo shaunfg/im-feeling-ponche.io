@@ -66,9 +66,3 @@ Suggestions welcome! Open an issue for:
 - UI improvements
 - Bug reports
 - Feature requests
-
----
-
-**Made with ❤️ for the Cuban music community**
-
-*"I'm feeling ponche!" 🎵💃*
