@@ -16,7 +16,7 @@ A musical break in Cuban music (salsa, son, timba) where the music pauses dramat
 
 ## 🚀 Live Demo
 
-**[https://shaunfg.github.io/im-feeling-ponche/](https://shaunfg.github.io/im-feeling-ponche/)**
+**[https://shaunfg.github.io/im-feeling-ponche.io](https://shaunfg.github.io/im-feeling-ponche.io)**
 
 ## 📊 Data Source
 

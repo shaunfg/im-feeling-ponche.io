@@ -603,13 +603,10 @@
             const youtubeUrl = songData.youtube_id || '';
             const youtubeId = extractYouTubeId(youtubeUrl);
 
-            songInfo.innerHTML = `
-                <div class="song-header">
+            songInfo.innerHTML = `<div class="song-header">
                     <h2 class="song-title">${song}</h2>
                     <p class="song-artist">by ${artist}</p>
-                </div>
-                ${youtubeId ? `
-                <div class="video-section">
+                </div>${youtubeId ? `<div class="video-section">
                     <h3 class="video-title">Watch this ponche in action!</h3>
                     <div class="video-container">
                         <a href="${createYouTubeUrlWithTime(youtubeUrl, getYouTubeStartTime(timeForAttention))}" target="_blank" class="video-thumbnail-link">
@@ -629,8 +626,7 @@
                             </div>
                         </a>
                     </div>
-                ` : ''}
-                <div class="song-details">
+                </div>` : ''}<div class="song-details">
                     <div class="detail-item">
                         <span class="detail-label">Ponche Type:</span>
                         <span class="detail-value">${poncheType || 'N/A'}</span>
@@ -650,15 +646,11 @@
                     <div class="detail-item">
                         <span class="detail-label">Size/Prominence:</span>
                         <span class="detail-value">${sizeProminence || 'N/A'}</span>
-                    </div>
-                    ${hint ? `
-                    <div class="detail-item hint">
+                    </div>${hint ? `<div class="detail-item hint">
                         <span class="detail-label">Hint:</span>
                         <span class="detail-value">${hint}</span>
-                    </div>
-                    ` : ''}
-                </div>
-            `;
+                    </div>` : ''}
+                </div>`;
 
             // Update current song info
             currentSong = song;
@@ -680,8 +672,6 @@
                 displaySong(randomSong);
             }
         }
-
-
 
         // Initialize the page
         function initializePage() {
