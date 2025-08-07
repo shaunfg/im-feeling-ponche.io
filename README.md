@@ -1,108 +1,74 @@
-# 🎵 I'm Feeling Ponche - Cuban Music Ponche Database
+# �� I'm Feeling Ponche
 
-A beautiful, interactive webpage that randomly displays Cuban music ponches with YouTube integration. Perfect for learning and practicing Cuban dance timing!
+Random Cuban music ponches with YouTube integration. Perfect for learning Cuban dance timing!
 
 ## 🌟 Features
 
-- **🎲 Random Ponche Selection** - Click "I'm feeling lucky" to discover new ponches
-- **🎬 YouTube Integration** - Direct links to ponche moments with precise timing
-- **📱 Responsive Design** - Works perfectly on desktop, tablet, and mobile
-- **🎨 Beautiful UI** - Clean, modern design with Pixelify Sans font
-- **📊 Detailed Information** - Complete ponche data including timing, hints, and context
-- **🔄 Easy Updates** - Simple process to add new ponches from Google Sheets
+- **🎲 Random Selection** - Click "I'm feeling lucky" for new ponches
+- **🎬 YouTube Links** - Direct to ponche moments with precise timing
+- **📱 Responsive** - Works on all devices
+- **🎨 Beautiful UI** - Clean design with Pixelify Sans font
+- **📊 Complete Data** - Timing, hints, and context for each ponche
 
 ## 🎯 What is a Ponche?
 
-A "ponche" is a musical break or accent in Cuban music (salsa, son, timba) where the music pauses or changes dramatically. It's a crucial moment for dancers to hit their moves! This tool helps you learn to recognize and anticipate these moments.
+A musical break in Cuban music (salsa, son, timba) where the music pauses dramatically. Dancers hit their moves at these crucial moments!
 
 ## 🚀 Live Demo
 
-Visit the live site: **[https://shaunfg.github.io/im-feeling-ponche/](https://shaunfg.github.io/im-feeling-ponche/)**
+**[https://shaunfg.github.io/im-feeling-ponche/](https://shaunfg.github.io/im-feeling-ponche/)**
 
-## 📋 Current Database
+## 📊 Data Source
+
+**[Google Sheets Database](https://docs.google.com/spreadsheets/d/16KsSO3aFWe80XplMn7k4pXi5tag0tUaQbjYFhsjGNO8/edit)**
+
+## 📋 Database
 
 - **37 ponches** from major Cuban artists
-- **Featured artists**: Formell y los Van Van, Manolito Simonet, Pupy y Los Que Son Son, and more
+- **Featured**: Formell y los Van Van, Manolito Simonet, Pupy y Los Que Son Son
 - **Multiple ponches per song** where applicable
-- **Precise timing** - both ponche time and attention time
-- **YouTube links** that start at the exact moment
+- **Precise timing** - ponche time and attention time
+- **YouTube links** start at exact moments
 
-## 🛠️ Technical Details
+## 🛠️ Tech Stack
 
-### Built With
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with custom fonts
-- **JavaScript** - Dynamic content and YouTube integration
-- **Google Fonts** - Pixelify Sans for the retro aesthetic
+- **HTML5/CSS3/JavaScript** - Pure client-side
+- **Google Fonts** - Pixelify Sans
+- **YouTube API** - Thumbnail system bypasses embedding restrictions
+- **Embedded JSON** - No server required
 
-### Key Features
-- **No server required** - Pure client-side implementation
-- **Embedded data** - All ponche data included in HTML
-- **YouTube thumbnail system** - Bypasses embedding restrictions
-- **Time conversion** - MM:SS format to YouTube seconds
-- **Error handling** - Graceful fallbacks for missing data
-
-## 📁 Project Structure
+## 📁 Files
 
 ```
-im-feeling-ponche/
-├── index.html              # Main webpage with embedded data
-├── style.css               # Styling and responsive design
-├── fetch_data.py           # Script to update from Google Sheets
-├── ponche_data.json        # Current ponche database
-├── prompt_update_data.md   # Comprehensive update guide
-├── README.md               # This file
-└── Pixelify_Sans/          # Custom font files
+├── index.html              # Main webpage
+├── style.css               # Styling
+├── fetch_data.py           # Update script
+├── ponche_data.json        # Database
+├── prompt_update_data.md   # Update guide
+└── README.md               # This file
 ```
 
-## 🔄 Updating the Database
+## 🔄 Adding Ponches
 
-Want to add more ponches? Check out the **[Update Guide](prompt_update_data.md)** for detailed instructions on:
-
-1. Adding new ponches to the Google Sheet
-2. Fetching updated data
-3. Updating the HTML file
-4. Testing and verification
-
-## 🎨 Design Features
-
-- **Pastel yellow background** - Warm, inviting aesthetic
-- **Pixelify Sans font** - Retro gaming vibe
-- **Card-based layout** - Clean, organized information
-- **Hover effects** - Interactive YouTube-style thumbnails
-- **Responsive grid** - Adapts to any screen size
+See **[Update Guide](prompt_update_data.md)** for detailed instructions.
 
 ## 🎵 Sample Ponches
 
-- **"Modo Van Van"** by Formell y los Van Van (2:46 attention time)
-- **"Muevete"** by Manolito Simonet y su Trabuco (1:34 attention time)
-- **"Lola, Lola"** by David Calzado y su Charanga Habanera (2:36 attention time)
-- **"Llegar a Viejo"** by Pupy y Los Que Son Son (3:00 attention time)
+- **"Modo Van Van"** - Formell y los Van Van (2:46)
+- **"Muevete"** - Manolito Simonet (1:34)
+- **"Lola, Lola"** - David Calzado (2:36)
+- **"Llegar a Viejo"** - Pupy y Los Que Son Son (3:00)
 
 ## 🤝 Contributing
 
-This is a personal project, but suggestions are welcome! If you have:
-
-- **New ponches** to add
-- **UI/UX improvements** to suggest
-- **Bug reports** to share
-- **Feature requests** to propose
-
-Feel free to open an issue or reach out!
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- **Cuban music community** - For the inspiration and knowledge
-- **Google Sheets** - For easy data management
-- **YouTube** - For hosting the music videos
-- **Google Fonts** - For the beautiful Pixelify Sans font
+Suggestions welcome! Open an issue for:
+- New ponches
+- UI improvements
+- Bug reports
+- Feature requests
 
 ---
 
-**Made with ❤️ for the Cuban music and dance community**
+**Made with ❤️ for the Cuban music community**
 
-*"I'm feeling ponche!" - Because every day should have a good ponche! 🎵💃*
+*"I'm feeling ponche!" 🎵💃*
