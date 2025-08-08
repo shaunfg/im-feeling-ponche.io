@@ -310,20 +310,20 @@ body {
     margin: 30px auto 40px auto;
     display: block;
     padding: 12px 32px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #87CEEB 0%, #B0E0E6 100%);
+    color: #2c3e50;
     border: none;
     border-radius: 30px;
     font-size: 1.1rem;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.15);
+    box-shadow: 0 4px 15px rgba(135, 206, 235, 0.3);
     transition: background 0.2s, transform 0.2s;
 }
 
 .new-ponche-btn:hover {
-    background: linear-gradient(135deg, #5a6fd8 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #7BB8D9 0%, #9FD3E6 100%);
     transform: translateY(-2px) scale(1.03);
 }
 
