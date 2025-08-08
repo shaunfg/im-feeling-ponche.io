@@ -27,6 +27,19 @@ body {
     margin-bottom: 30px;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+}
+
 .title {
     font-size: 2.5rem;
     font-weight: 600;
@@ -441,6 +454,14 @@ body {
         padding: 15px;
     }
     
+    .header-content {
+        gap: 15px;
+    }
+    
+    .logo {
+        height: 50px;
+    }
+    
     .title {
         font-size: 2rem;
     }
@@ -478,6 +499,14 @@ body {
 }
 
 @media (max-width: 480px) {
+    .header-content {
+        gap: 10px;
+    }
+    
+    .logo {
+        height: 40px;
+    }
+    
     .title {
         font-size: 1.8rem;
     }
