@@ -1,4 +1,4 @@
-# �� I'm Feeling Ponche
+# 💥💥 I'm Feeling Ponche
 
 Random Cuban music ponches with YouTube integration. Perfect for learning Cuban dance timing!
 
