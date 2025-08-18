@@ -26,7 +26,7 @@ A musical hit in Cuban music that happens on the 8, usually dramatically. This h
 - **Multiple ponches per song** where applicable
 - **Precise timing** - ponche time and attention time
 - **YouTube links** start at exact moments
-- **Cuatros, Cincos, Sietes, Dicharachos, etc** are also logged
+- **Cuatros (4), Cincos (5), Sietes (6), Dicharachos, etc** are also logged
 
 ## 📁 Files
 
