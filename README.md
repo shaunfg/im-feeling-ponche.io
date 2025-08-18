@@ -1,6 +1,5 @@
 # 💥💥 I'm Feeling Ponche
-
-Random Cuban music ponches with YouTube integration. Perfect for learning Cuban dance timing!
+Cuban music ponches display website with YouTube integration. Goal of this website is to share and continue the discussion on Cuban Music and Dance
 
 ## 🌟 Features
 
@@ -12,7 +11,7 @@ Random Cuban music ponches with YouTube integration. Perfect for learning Cuban 
 
 ## 🎯 What is a Ponche?
 
-A musical break in Cuban music (salsa, son, timba) where the music pauses dramatically. Dancers hit their moves at these crucial moments!
+A musical hit in Cuban music that happens on the 8, usually dramatically. This hit is classified from the minds from [Rueda Con Ritmo](https://www.ruedaconritmo.com/) in San Francisco. 
 
 ## 🚀 Live Demo
 
@@ -30,13 +29,6 @@ A musical break in Cuban music (salsa, son, timba) where the music pauses dramat
 - **Precise timing** - ponche time and attention time
 - **YouTube links** start at exact moments
 
-## 🛠️ Tech Stack
-
-- **HTML5/CSS3/JavaScript** - Pure client-side
-- **Google Fonts** - Pixelify Sans
-- **YouTube API** - Thumbnail system bypasses embedding restrictions
-- **Embedded JSON** - No server required
-
 ## 📁 Files
 
 ```
@@ -47,22 +39,10 @@ A musical break in Cuban music (salsa, son, timba) where the music pauses dramat
 ├── prompt_update_data.md   # Update guide
 └── README.md               # This file
 ```
-
-## 🔄 Adding Ponches
-
-See **[Update Guide](prompt_update_data.md)** for detailed instructions.
-
-## 🎵 Sample Ponches
-
-- **"Modo Van Van"** - Formell y los Van Van (2:46)
-- **"Muevete"** - Manolito Simonet (1:34)
-- **"Lola, Lola"** - David Calzado (2:36)
-- **"Llegar a Viejo"** - Pupy y Los Que Son Son (3:00)
-
 ## 🤝 Contributing
 
-Suggestions welcome! Open an issue for:
-- New ponches
+Suggestions welcome! Feel free to open pull-requests for 
 - UI improvements
 - Bug reports
-- Feature requests
+
+If you want to suggest new ponches, you can email me at shaunfendigan@gmail.com
