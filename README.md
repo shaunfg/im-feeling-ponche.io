@@ -11,7 +11,7 @@ Cuban music Ponches (hit on the 8), displayed on a simple website with YouTube i
 
 ## 🎯 What is a Ponche?
 
-A musical hit in Cuban music that happens on the 8, usually dramatically. This hit is classified from the minds from [Rueda Con Ritmo](https://www.ruedaconritmo.com/) in San Francisco. 
+A musical hit in Cuban music that happens on the 8, usually dramatically. This hit is classified from the minds of [Rueda Con Ritmo](https://www.ruedaconritmo.com/) in San Francisco. 
 
 ## 🚀 Live Demo
 
