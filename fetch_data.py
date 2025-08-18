@@ -40,9 +40,9 @@ def main():
     fetch_sheet_data(SHEET_ID, 'ponche_data.json')
     
     # Fetch comments data
-    fetch_sheet_data(COMMENTS_SHEET_ID, 'comments_data.json')
+    # fetch_sheet_data(COMMENTS_SHEET_ID, 'comments_data.json')
     
-    print("✅ Done! Check ponche_data.json and comments_data.json")
+    print("✅ Done! Check ponche_data.json")
 
 if __name__ == "__main__":
     main()
