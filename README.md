@@ -1,5 +1,5 @@
 # 💥💥 I'm Feeling Ponche
-Cuban music ponches display website with YouTube integration. Goal of this website is to share and continue the discussion on Cuban Music and Dance
+Cuban music Ponches (hit on the 8), displayed on a simple website with YouTube integration. Goal of this website is to share and continue the discussion on Cuban Music and Dance
 
 ## 🌟 Features
 
