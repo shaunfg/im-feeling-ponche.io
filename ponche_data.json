@@ -160,12 +160,12 @@
     "song": "Son Para un Amor Sincero",
     "artist": "Adalberto Alvarez y su Son",
     "type": "Ponche",
-    "ponche_type": "",
+    "ponche_type": "4th_measure",
     "time": "1:46",
     "time_for_attention": "1:32",
-    "pre_musicality_measure_length": "",
+    "pre_musicality_measure_length": "4",
     "size_prominence": "Medium",
-    "hint for cantante": "there is a ponche on the 2nd measure too",
+    "hint for cantante": "Interesting!! there is a ponche on the 2nd measure too, you could do them back to back",
     "youtube_id": "https://youtu.be/Vr7vu5gkZ0s?si=Mq0OfLl44P0kpxZ4"
   },
   {
@@ -634,7 +634,7 @@
     "pre_musicality_measure_length": "8",
     "size_prominence": "Large",
     "hint for cantante": "Starts with the mambo section, there are 8 measures here to tee up the ponche",
-    "youtube_id": ""
+    "youtube_id": "https://youtu.be/laNPRCRNPaU?si=7s7xRbCWew2VX04X"
   },
   {
     "i": "49",
@@ -648,5 +648,31 @@
     "size_prominence": "Large",
     "hint for cantante": "2 measures between 2 ponches, you can call it once you hear the first Ponche",
     "youtube_id": "https://youtu.be/laNPRCRNPaU?si=7s7xRbCWew2VX04X"
+  },
+  {
+    "i": "50",
+    "song": "Mi Padrino",
+    "artist": "Maykel Blanco y su Salsa Mayor",
+    "type": "Ponche",
+    "ponche_type": "2nd_measure",
+    "time": "2:57",
+    "time_for_attention": "2:52",
+    "pre_musicality_measure_length": "2",
+    "size_prominence": "Large",
+    "hint for cantante": "Incredible one, Comes out of 8 measures of mambo, followed by the 2 measures for the ponche",
+    "youtube_id": "https://youtu.be/ACrj_L8M3Fs?si=ps62bfYHsL2LVCzn"
+  },
+  {
+    "i": "51",
+    "song": "Otra Oportunidad",
+    "artist": "Yasser Ramos Y El Tumbao Mayombe",
+    "type": "Ponche",
+    "ponche_type": "5th_measure",
+    "time": "2:13",
+    "time_for_attention": "1:52",
+    "pre_musicality_measure_length": "9",
+    "size_prominence": "Large",
+    "hint for cantante": "Ponche with an awesome setup, Sections starts when it cuts to just bass and percussion and vocals",
+    "youtube_id": "https://youtu.be/yQ55VqwuT8M?si=agbLqQGgFQTxowyE"
   }
 ]
