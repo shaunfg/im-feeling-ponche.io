@@ -5,7 +5,6 @@ from io import StringIO
 
 # Google Sheets configuration
 SHEET_ID = '16KsSO3aFWe80XplMn7k4pXi5tag0tUaQbjYFhsjGNO8'
-COMMENTS_SHEET_ID = '1FEMz3SUhaj-JrFBvTh_SDPoe_YCjJZWfOoiFHpNhHDI'
 
 def fetch_sheet_data(sheet_id, filename):
     try:
@@ -17,6 +16,9 @@ def fetch_sheet_data(sheet_id, filename):
             print(f"❌ Failed to fetch {filename}: {response.status_code}")
             return None
         
+        # Google serves UTF-8 without a charset header, so requests would guess latin-1
+        response.encoding = 'utf-8'
+
         # Parse CSV data
         csv_text = response.text
         csv_reader = csv.DictReader(StringIO(csv_text))
@@ -38,9 +40,6 @@ def main():
     
     # Fetch ponche data
     fetch_sheet_data(SHEET_ID, 'ponche_data.json')
-    
-    # Fetch comments data
-    # fetch_sheet_data(COMMENTS_SHEET_ID, 'comments_data.json')
     
     print("✅ Done! Check ponche_data.json")
 

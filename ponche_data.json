@@ -9,7 +9,7 @@
     "time_for_attention": "2:46",
     "pre_musicality_measure_length": "4",
     "size_prominence": "Large",
-    "hint for cantante": "Se prendiÃ³!' is sung on the 2nd measure",
+    "hint for cantante": "Se prendió!' is sung on the 2nd measure",
     "youtube_id": "https://youtu.be/JtX9Tw9vkJA?si=U9xlZbp0ygSvFC1R"
   },
   {
@@ -17,10 +17,10 @@
     "song": "Muevete",
     "artist": "Manolito Simonet y su Trabuco",
     "type": "Ponche",
-    "ponche_type": "",
+    "ponche_type": "5th_measure",
     "time": "1:37",
-    "time_for_attention": "1:34",
-    "pre_musicality_measure_length": "1",
+    "time_for_attention": "1:22",
+    "pre_musicality_measure_length": "5",
     "size_prominence": "Large",
     "hint for cantante": "Like a Ponche with an 8 count freeze after!",
     "youtube_id": "https://youtu.be/YNl6MTryRD4?si=8Jo6aiLvGRZXbcBv"
@@ -92,7 +92,7 @@
   },
   {
     "i": "7",
-    "song": "Abusadora Me EnterÃ©",
+    "song": "Abusadora Me Enteré",
     "artist": "Pupy y Los Que Son Son",
     "type": "Ponche",
     "ponche_type": "4th_measure",
@@ -106,7 +106,7 @@
   {
     "i": "8",
     "song": "Caramelo Con Picante",
-    "artist": "Lazarito ValdÃ©s y Bamboleo",
+    "artist": "Lazarito Valdés y Bamboleo",
     "type": "Ponche",
     "ponche_type": "5th_measure",
     "time": "2:24",
@@ -118,7 +118,7 @@
   },
   {
     "i": "9",
-    "song": "SeÃ±ora",
+    "song": "Señora",
     "artist": "Adalberto Alvarez y su Son",
     "type": "Ponche",
     "ponche_type": "2nd_measure",
@@ -126,12 +126,12 @@
     "time_for_attention": "1:53",
     "pre_musicality_measure_length": "2",
     "size_prominence": "Medium",
-    "hint for cantante": "Before the main chorus starts. You can prepare even earlier if you hear the singer lovingly sing \"seÃ±ora, seÃ±ooora\" for 2 measure before hand ",
+    "hint for cantante": "Before the main chorus starts. You can prepare even earlier if you hear the singer lovingly sing \"señora, señooora\" for 2 measure before hand ",
     "youtube_id": "https://youtu.be/yDA1WEIch_Y?si=MrU_Hm-0KbCT6S-Q"
   },
   {
     "i": "10",
-    "song": "Â¿Y lo tuyo que?",
+    "song": "¿Y lo tuyo que?",
     "artist": "Juan Carlos Alfonso y su Dan Den",
     "type": "Ponche",
     "ponche_type": "4th_measure",
@@ -144,7 +144,7 @@
   },
   {
     "i": "11",
-    "song": "Â¿Y lo tuyo que?",
+    "song": "¿Y lo tuyo que?",
     "artist": "Juan Carlos Alfonso y su Dan Den",
     "type": "Ponche",
     "ponche_type": "2nd_measure",
@@ -170,7 +170,7 @@
   },
   {
     "i": "13",
-    "song": "Yo Soy AsÃ­",
+    "song": "Yo Soy Así",
     "artist": "Pupy y los que Son Son",
     "type": "Ponche",
     "ponche_type": "",
@@ -210,7 +210,7 @@
   {
     "i": "16",
     "song": "Ella Te Miente",
-    "artist": "Lazarito ValdÃ©s y Bamboleo",
+    "artist": "Lazarito Valdés y Bamboleo",
     "type": "Ponche",
     "ponche_type": "4th_measure",
     "time": "1:32",
@@ -223,7 +223,7 @@
   {
     "i": "17",
     "song": "Ella Te Miente",
-    "artist": "Lazarito ValdÃ©s y Bamboleo",
+    "artist": "Lazarito Valdés y Bamboleo",
     "type": "Ponche",
     "ponche_type": "5th_measure",
     "time": "1:46",
@@ -482,7 +482,7 @@
   },
   {
     "i": "37",
-    "song": "Donde te perdÃ­ ",
+    "song": "Donde te perdí ",
     "artist": "Manolito Simonet y su Trabuco",
     "type": "Ponche",
     "ponche_type": "2nd_measure",
@@ -495,7 +495,7 @@
   },
   {
     "i": "38",
-    "song": "Donde te perdÃ­ ",
+    "song": "Donde te perdí ",
     "artist": "Manolito Simonet y su Trabuco",
     "type": "Ponche",
     "ponche_type": "3rd_measure",
@@ -547,7 +547,7 @@
   },
   {
     "i": "42",
-    "song": "Ãmame con tu Experencia",
+    "song": "Ámame con tu Experencia",
     "artist": "Juan Carlos Alfonso y su Dan Den",
     "type": "Ponche",
     "ponche_type": "2nd_measure",
@@ -674,5 +674,122 @@
     "size_prominence": "Large",
     "hint for cantante": "Ponche with an awesome setup, Sections starts when it cuts to just bass and percussion and vocals",
     "youtube_id": "https://youtu.be/yQ55VqwuT8M?si=agbLqQGgFQTxowyE"
+  },
+  {
+    "i": "52",
+    "song": "Intro del Mayimbe",
+    "artist": "Barbaro Fines y su Mayimbe",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "1:27",
+    "time_for_attention": "1:15",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Large",
+    "hint for cantante": "with the horns?! a good change in feeling , its harder to catch the 4 measures on this one, i find it in the piano melody",
+    "youtube_id": "https://youtu.be/mEt26EOSRL4?si=neETsbrLARc_f-IR"
+  },
+  {
+    "i": "53",
+    "song": "Intro del Mayimbe",
+    "artist": "Barbaro Fines y su Mayimbe",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "1:40",
+    "time_for_attention": "1:27",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Medium",
+    "hint for cantante": "cheeky small one, this symbal small one happens throughout the song, one comes right after this one as well",
+    "youtube_id": "https://youtu.be/mEt26EOSRL4?si=neETsbrLARc_f-IR"
+  },
+  {
+    "i": "54",
+    "song": "Intro del Mayimbe",
+    "artist": "Barbaro Fines y su Mayimbe",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "3:08",
+    "time_for_attention": "2:57",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Large",
+    "hint for cantante": "One of the biggest and best ponches out there!! All time favourite",
+    "youtube_id": "https://youtu.be/mEt26EOSRL4?si=neETsbrLARc_f-IR"
+  },
+  {
+    "i": "55",
+    "song": "Intro del Mayimbe",
+    "artist": "Barbaro Fines y su Mayimbe",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "3:34",
+    "time_for_attention": "3:21",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Large",
+    "hint for cantante": "Cuatro + Ponche?! a double ponche queues this up for the 4 measures",
+    "youtube_id": "https://youtu.be/mEt26EOSRL4?si=neETsbrLARc_f-IR"
+  },
+  {
+    "i": "56",
+    "song": "Intro del Mayimbe",
+    "artist": "Barbaro Fines y su Mayimbe",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "5:36",
+    "time_for_attention": "5:26",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Large",
+    "hint for cantante": "there are so many fakeouts before this one, always think about a ponche mentira? haha! he almost teases you to the point where the one actually comes, he says goza! finally you can enjoy! ",
+    "youtube_id": "https://youtu.be/mEt26EOSRL4?si=neETsbrLARc_f-IR"
+  },
+  {
+    "i": "57",
+    "song": "Somos el son de Cuba",
+    "artist": "Adalberto Albarez",
+    "type": "Ponche",
+    "ponche_type": "2nd_measure",
+    "time": "1:15",
+    "time_for_attention": "1:07",
+    "pre_musicality_measure_length": "2",
+    "size_prominence": "Large",
+    "hint for cantante": "can be hard to stay on time for this one",
+    "youtube_id": "https://youtu.be/FobGlxvE2Us?si=_n4_5Wy5Qf21gq6Y"
+  },
+  {
+    "i": "58",
+    "song": "Somos el son de Cuba",
+    "artist": "Adalberto Albarez",
+    "type": "Ponche",
+    "ponche_type": "2nd_measure",
+    "time": "2:41",
+    "time_for_attention": "2:35",
+    "pre_musicality_measure_length": "2",
+    "size_prominence": "Large",
+    "hint for cantante": "nice section before this as well ",
+    "youtube_id": "https://youtu.be/FobGlxvE2Us?si=_n4_5Wy5Qf21gq6Y"
+  },
+  {
+    "i": "59",
+    "song": "La Bomba Soy Yo",
+    "artist": "Los Van Van",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "2:36",
+    "time_for_attention": "2:26",
+    "pre_musicality_measure_length": "4",
+    "size_prominence": "Medium",
+    "hint for cantante": "Nice standard 4 measure build up, but the one that comes after is amazing",
+    "youtube_id": "https://youtu.be/tJQy5B6uyfI?si=rWXiQrdhvacKcD1w"
+  },
+  {
+    "i": "60",
+    "song": "La Bomba Soy Yo",
+    "artist": "Los Van Van",
+    "type": "Ponche",
+    "ponche_type": "4th_measure",
+    "time": "2:41",
+    "time_for_attention": "2:36",
+    "pre_musicality_measure_length": "2",
+    "size_prominence": "Large",
+    "hint for cantante": "Amazing Ponche, you can call ench. con ponche immediate after the last ponche ",
+    "youtube_id": "https://youtu.be/tJQy5B6uyfI?si=rWXiQrdhvacKcD1w"
   }
 ]
