@@ -3,15 +3,7 @@ Cuban music Ponches (hit on the 8), displayed on a simple website with YouTube i
 
 ## 🎯 What is a Ponche?
 
-A musical hit in Cuban music that happens on the 8, usually dramatically. This hit is classified from the minds of [Rueda Con Ritmo](https://www.ruedaconritmo.com/) in San Francisco. 
-
-## 🌟 Features
-
-- **🎲 Random Selection** - Click "I'm feeling lucky" for new ponches
-- **🎬 YouTube Links** - Direct to ponche moments with precise timing
-- **📱 Responsive** - Works on all devices
-- **🎨 Beautiful UI** - Clean design with Pixelify Sans font
-- **📊 Complete Data** - Timing, hints, and context for each ponche
+A musical hit in Cuban music that happens on the 8, usually dramatically. This hit is popularised from the minds of [Rueda Con Ritmo](https://www.ruedaconritmo.com/) in San Francisco, I learnt this from them. 
 
 ## 🚀 Live Demo
 
@@ -28,20 +20,9 @@ A musical hit in Cuban music that happens on the 8, usually dramatically. This h
 - **YouTube links** start at exact moments
 - **Cuatros (4), Cincos (5), Seises (6), Dicharachos, etc** are also logged
 
-## 📁 Files
-
-```
-├── index.html              # Main webpage
-├── style.css               # Styling
-├── fetch_data.py           # Update script
-├── ponche_data.json        # Database
-├── prompt_update_data.md   # Update guide
-└── README.md               # This file
 ```
 ## 🤝 Contributing
 
 Suggestions welcome! Feel free to open pull-requests for 
 - UI improvements
 - Bug reports
-
-If you want to suggest new ponches, you can email me at shaunfendigan@gmail.com ; if you would like me to start a google form or something, let me know. 
