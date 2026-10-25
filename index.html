@@ -27,8 +27,6 @@
 
             <!-- Removed context-section textarea -->
 
-            <button id="newPoncheBtn" class="new-ponche-btn" onclick="showNewPonche()">I'm feeling lucky</button>
-
             <div class="discussion-link">
                 <p>Questions? Want to discuss? <a href="https://ponchepal.substack.com" target="_blank">https://ponchepal.substack.com</a></p>
                 <p>See All Ponches Here: <a href="https://docs.google.com/spreadsheets/d/16KsSO3aFWe80XplMn7k4pXi5tag0tUaQbjYFhsjGNO8/edit#gid=0" target="_blank">(Google Sheets)</a></p>
@@ -57,6 +55,7 @@
             }
         }
 
+        let currentIndex = -1;
         let currentSong = '';
         let currentArtist = '';
 
@@ -137,7 +136,9 @@
             const youtubeUrl = songData.youtube_id || '';
             const youtubeId = extractYouTubeId(youtubeUrl);
 
-            songInfo.innerHTML = `<div class="song-header">
+            const poncheNumber = songData.i !== undefined && songData.i !== '' ? `<span class="ponche-number" title="Ponche number">#${songData.i}</span>` : '';
+
+            songInfo.innerHTML = `${poncheNumber}<div class="song-header">
                     <h2 class="song-title">${song}</h2>
                     <p class="song-artist">by ${artist}</p>
                 </div>${youtubeId ? `<div class="video-section">
@@ -160,7 +161,11 @@
                             </div>
                         </a>
                     </div>
-                </div>` : ''}<div class="song-details">
+                </div>` : ''}<div class="controls">
+                    <button class="new-ponche-btn arrow-btn" onclick="showAdjacentPonche(-1)" aria-label="Previous ponche">&larr;</button>
+                    <button id="newPoncheBtn" class="new-ponche-btn" onclick="showNewPonche()">I'm feeling lucky</button>
+                    <button class="new-ponche-btn arrow-btn" onclick="showAdjacentPonche(1)" aria-label="Next ponche">&rarr;</button>
+                </div><div class="song-details">
                     <div class="detail-item">
                         <span class="detail-label">Ponche Type:</span>
                         <span class="detail-value">${poncheType || 'N/A'}</span>
@@ -195,8 +200,8 @@
         function getRandomSong() {
             if (poncheData.length === 0) return null;
             
-            const randomIndex = Math.floor(Math.random() * poncheData.length);
-            return poncheData[randomIndex];
+            currentIndex = Math.floor(Math.random() * poncheData.length);
+            return poncheData[currentIndex];
         }
 
         // Show a new random ponche
@@ -206,6 +211,18 @@
                 displaySong(randomSong);
             }
         }
+
+        // Step to the previous (-1) or next (1) ponche, wrapping around
+        function showAdjacentPonche(step) {
+            if (poncheData.length === 0) return;
+            currentIndex = (currentIndex + step + poncheData.length) % poncheData.length;
+            displaySong(poncheData[currentIndex]);
+        }
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowLeft') showAdjacentPonche(-1);
+            if (event.key === 'ArrowRight') showAdjacentPonche(1);
+        });
 
         // Initialize the page
         function initializePage() {
@@ -217,6 +234,7 @@
 
         // Make functions globally available
         window.showNewPonche = showNewPonche;
+        window.showAdjacentPonche = showAdjacentPonche;
     </script>
     </body>
 </html>

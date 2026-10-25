@@ -49,10 +49,21 @@ body {
 
 /* Main content */
 .main-content {
+    position: relative;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     overflow: hidden;
+}
+
+/* Ponche number badge */
+.ponche-number {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #7f8c8d;
 }
 
 /* Song container */
@@ -307,9 +318,19 @@ body {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.new-ponche-btn.arrow-btn {
+    padding: 12px 18px;
+}
+
 .new-ponche-btn {
-    margin: 30px auto 40px auto;
-    display: block;
     padding: 12px 32px;
     background: linear-gradient(135deg, #87CEEB 0%, #B0E0E6 100%);
     color: #2c3e50;
